@@ -1,0 +1,34 @@
+1. Insert many student record with name, primary address, favourite teacher and age. 
+
+
+
+db.student_details.insertMany([{
+    "name": "Arun",
+    "age":35,
+    "primary_address": "Chennai, thamil nadu",
+    "Favorite_teacher": "arun"
+},
+{
+    "name": "balaji",
+    "age":30,
+    "primary_address": "hyderabad, thamil nadu",
+    "Favorite_teacher": "venkat"
+},
+{
+    "name": "charan",
+    "age":25,
+    "primary_address": "kashmir, thamil nadu",
+    "Favorite_teacher": "banu"
+},
+{
+    "name": "kumar",
+    "age":10,
+    "primary_address": "delhi, thamil nadu",
+    "Favorite_teacher": "harish"
+},
+{
+    "name": "vijay",
+    "age":10,
+    "primary_address": "123 abc nagar Chennai",
+    "Favorite_teacher": "rehman"
+}])

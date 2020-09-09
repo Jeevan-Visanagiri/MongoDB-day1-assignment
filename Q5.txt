@@ -1,0 +1,5 @@
+5. Find the favourite teacher of student ‘Ashwini’ 
+
+
+
+db.student_details.find({ "Favorite_teacher": "aswini"})

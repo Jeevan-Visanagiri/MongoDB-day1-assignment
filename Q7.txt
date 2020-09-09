@@ -1,0 +1,4 @@
+7. Count the students who live in Chennai 
+
+
+db.student_details.find({"primary_address":"chennai"}).count()

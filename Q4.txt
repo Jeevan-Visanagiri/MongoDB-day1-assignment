@@ -1,0 +1,4 @@
+4. Find all the student whose age is greater than 12. 
+
+
+db.student_details.find({"age":{$gt:12}})
